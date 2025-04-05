@@ -1,0 +1,1 @@
+export const heroFlipWords = ["frontend", "backend", "testing", "scripting", "teamwork"];
