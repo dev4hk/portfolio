@@ -118,13 +118,14 @@ export const HeroParallax = ({
 
 export const Header = () => {
     return (
-        <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
+        <div
+            className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
                 Crafted with <ColourfulText text={"Passion"}/>
             </h1>
             <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-                These are my personal projects, where I experiment with new technologies and design patterns to create
-                impactful digital experiences.
+                Personal experiments where I play with modern tech and design ideas to push the boundaries of digital
+                creation.
             </p>
         </div>
     );
