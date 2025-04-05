@@ -1,12 +1,11 @@
 import Hero from "./components/Hero.tsx";
+import Projects from "./components/projects.tsx";
 
 function App() {
     return (
-        <main
-            className={"relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto"}>
-            <div className={"w-full"}>
-                <Hero/>
-            </div>
+        <main className={"relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto"}>
+            <Hero/>
+            <Projects/>
         </main>
     )
 }

@@ -1,4 +1,3 @@
-"use client";
 import {motion} from "motion/react";
 import React from "react";
 import {cn} from "../../../lib/utils.ts";
@@ -98,7 +97,7 @@ const SVG = ({
             initial={{opacity: 0}}
             animate={{opacity: 1}}
             transition={{duration: 1}}
-            className="absolute inset-0 w-full h-full"
+            className="absolute inset-0 w-screen h-screen"
         >
             {paths.map((path, idx) => (
                 <motion.path

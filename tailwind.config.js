@@ -11,7 +11,13 @@ export default {
                     DEFAULT: '#000',
                     100: "#000319"
                 }
-            }
+            },
+            screens: {
+                '3xl': '1920px',
+                '4xl': '2560px',
+                '5xl': '3840px',
+                '6xl': '7680px',
+            },
         },
     },
     plugins: [],
