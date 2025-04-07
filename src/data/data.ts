@@ -233,3 +233,12 @@ export const workExperience = [
         thumbnail: "assets/images/exp2.svg",
     },
 ]
+
+export const navItems = [
+    {name: 'Home', link: "#home"},
+    {name: "Skills", link: "#skills"},
+    {name: "Intro", link: "#intro"},
+    {name: "Projects", link: "#projects"},
+    {name: "Work", link: "#work"},
+    {name: "Connect", link: "#connect"}
+]

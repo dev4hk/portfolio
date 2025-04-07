@@ -3,6 +3,7 @@ import {ColourfulText} from "./ui/colourful-text.tsx";
 const Connect = () => {
     return (
         <div
+            id={"connect"}
             className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
                 "Let's <ColourfulText text={"Connect"} startColor={"#0be881"} endColor={"#00d8d6"}/>"

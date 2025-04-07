@@ -5,6 +5,7 @@ import {Button} from "./ui/moving-border.tsx";
 const Works = () => {
     return (
         <div
+            id={"work"}
             className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
                 Where I've Left <ColourfulText text={"My Mark"} startColor={"#D56AC6"} endColor={"#6A4C9C"}/>

@@ -5,6 +5,7 @@ import {ColourfulText} from "./ui/colourful-text.tsx";
 const Skills = () => {
     return (
         <section
+            id={"skills"}
             className={"w-full max-w-7xl bg-transparent mx-auto my-16 h-screen flex flex-col items-center justify-center text-center"}>
             <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
                 What's in My <ColourfulText text={"Toolbox"} startColor={"#ffaf40"} endColor={"#ff4d4d"}/>

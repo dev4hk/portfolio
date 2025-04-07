@@ -23,7 +23,7 @@ const words = [
 const ProjectDetails = () => {
     return (
 
-        <div className="w-full h-full flex items-center justify-center flex-col px-4 sm:px-10">
+        <div id={"projects"} className="w-full h-full flex items-center justify-center flex-col px-4 sm:px-10">
             <div
                 className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full flex flex-col justify-center items-center text-center">
                 <TypewriterEffect words={words}/>
