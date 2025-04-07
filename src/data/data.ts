@@ -24,20 +24,20 @@ export const projects: IProject[] = [
         description: "Simple AI chatbot application built using Spring Boot, Spring AI, Next.js, TailwindCSS, and Ollama.",
         link: "https://github.com/dev4hk/SpringAI-Chatbot",
         thumbnail:
-            "src/assets/images/ai-chatbot.png",
+            "assets/images/ai-chatbot.png",
         tech: [
             "Spring Boot", "Spring AI", "Maven", "Next.js", "Tailwind CSS", "TypeScript, Ollama, LLaVA, Gemma3, Deepseek-r1"],
         icons: [
-            "src/assets/logos/SpringBoot.svg",
-            "src/assets/logos/SpringAI.png",
-            "src/assets/logos/Maven.svg",
-            "src/assets/logos/Next.svg",
-            "src/assets/logos/TailwindCSS.svg",
-            "src/assets/logos/TypeScript.svg",
-            "src/assets/logos/Ollama.svg",
-            "src/assets/logos/Llava.svg",
-            "src/assets/logos/Gemma.svg",
-            "src/assets/logos/Deepseek.svg"
+            "assets/logos/SpringBoot.svg",
+            "assets/logos/SpringAI.png",
+            "assets/logos/Maven.svg",
+            "assets/logos/Next.svg",
+            "assets/logos/TailwindCSS.svg",
+            "assets/logos/TypeScript.svg",
+            "assets/logos/Ollama.svg",
+            "assets/logos/Llava.svg",
+            "assets/logos/Gemma.svg",
+            "assets/logos/Deepseek.svg"
         ]
     },
     {
@@ -47,7 +47,7 @@ export const projects: IProject[] = [
         link: "https://github.com/dev4hk/react-iphone-3d",
         demo: "",
         thumbnail:
-            "src/assets/images/iphone.png",
+            "assets/images/iphone.png",
         tech: [
             "ReactJS",
             "JavaScript",
@@ -55,10 +55,10 @@ export const projects: IProject[] = [
             "Vite"
         ],
         icons: [
-            "src/assets/logos/React.svg",
-            "src/assets/logos/JavaScript.svg",
-            "src/assets/logos/TailwindCSS.svg",
-            "src/assets/logos/Vite.svg"
+            "assets/logos/React.svg",
+            "assets/logos/JavaScript.svg",
+            "assets/logos/TailwindCSS.svg",
+            "assets/logos/Vite.svg"
         ]
     },
     {
@@ -68,7 +68,7 @@ export const projects: IProject[] = [
         link: "https://github.com/dev4hk/zentry-clone",
         demo: "",
         thumbnail:
-            "src/assets/images/zentry.png",
+            "assets/images/zentry.png",
         tech: [
             "ReactJS",
             "Tailwind CSS",
@@ -76,10 +76,10 @@ export const projects: IProject[] = [
             "Vite"
         ],
         icons: [
-            "src/assets/logos/React.svg",
-            "src/assets/logos/TailwindCSS.svg",
-            "src/assets/logos/JavaScript.svg",
-            "src/assets/logos/Vite.svg"
+            "assets/logos/React.svg",
+            "assets/logos/TailwindCSS.svg",
+            "assets/logos/JavaScript.svg",
+            "assets/logos/Vite.svg"
         ]
     },
 
@@ -89,7 +89,7 @@ export const projects: IProject[] = [
         description: "Spring Boot & Angular application to simulate loan process using microservice architecture",
         link: "https://github.com/dev4hk/loan-springboot-microservices",
         thumbnail:
-            "src/assets/images/loan-application.png",
+            "assets/images/loan-application.png",
         tech: [
             "Spring Boot",
             "Spring Cloud",
@@ -106,19 +106,19 @@ export const projects: IProject[] = [
             "Bootstrap"
         ],
         icons: [
-            "src/assets/logos/SpringBoot.svg",
-            "src/assets/logos/SpringCloud.png",
-            "src/assets/logos/Maven.svg",
-            "src/assets/logos/Grafana.svg",
-            "src/assets/logos/Swagger.svg",
-            "src/assets/logos/JUnit.svg",
-            "src/assets/logos/keycloak.png",
-            "src/assets/logos/RabbitMQ.svg",
-            "src/assets/logos/Kafka.svg",
-            "src/assets/logos/Docker.svg",
-            "src/assets/logos/Angular.svg",
-            "src/assets/logos/TypeScript.svg",
-            "src/assets/logos/Bootstrap.svg"
+            "assets/logos/SpringBoot.svg",
+            "assets/logos/SpringCloud.png",
+            "assets/logos/Maven.svg",
+            "assets/logos/Grafana.svg",
+            "assets/logos/Swagger.svg",
+            "assets/logos/JUnit.svg",
+            "assets/logos/keycloak.png",
+            "assets/logos/RabbitMQ.svg",
+            "assets/logos/Kafka.svg",
+            "assets/logos/Docker.svg",
+            "assets/logos/Angular.svg",
+            "assets/logos/TypeScript.svg",
+            "assets/logos/Bootstrap.svg"
         ]
     },
     {
@@ -127,7 +127,7 @@ export const projects: IProject[] = [
         description: "Test Framework to test loan service with behavior driven testing using Cucumber, Selenium and TestNG",
         link: "https://github.com/dev4hk/loan-springboot-microservices-test",
         thumbnail:
-            "src/assets/images/testing.png",
+            "assets/images/testing.png",
         tech: [
             "Selenium",
             "Cucumber",
@@ -135,10 +135,10 @@ export const projects: IProject[] = [
             "Maven"
         ],
         icons: [
-            "src/assets/logos/Selenium.svg",
-            "src/assets/logos/Cucumber.svg",
-            "src/assets/logos/Java.svg",
-            "src/assets/logos/Maven.svg"
+            "assets/logos/Selenium.svg",
+            "assets/logos/Cucumber.svg",
+            "assets/logos/Java.svg",
+            "assets/logos/Maven.svg"
         ]
     },
     {
@@ -147,12 +147,12 @@ export const projects: IProject[] = [
         description: "Java application to compress & decompress large text files by implementing Huffman Coding Algorithm",
         link: "https://github.com/dev4hk/file-compressor",
         thumbnail:
-            "src/assets/images/file-compressor.jpg",
+            "assets/images/file-compressor.jpg",
         tech: [
             "Java"
         ],
         icons: [
-            "src/assets/logos/Java.svg"
+            "assets/logos/Java.svg"
         ]
     },
     {
@@ -162,16 +162,16 @@ export const projects: IProject[] = [
         link: "https://github.com/dev4hk/Waypoint-Wizard",
         demo: "",
         thumbnail:
-            "src/assets/images/path-finder.png",
+            "assets/images/path-finder.png",
         tech: [
             "Angular",
             "TypeScript",
             "Tailwind CSS"
         ],
         icons: [
-            "src/assets/logos/Angular.svg",
-            "src/assets/logos/TypeScript.svg",
-            "src/assets/logos/TailwindCSS.svg"
+            "assets/logos/Angular.svg",
+            "assets/logos/TypeScript.svg",
+            "assets/logos/TailwindCSS.svg"
         ]
     },
     {
@@ -180,14 +180,14 @@ export const projects: IProject[] = [
         description: "A restaurant app built using ReactJS and Bootstrap as capstone project for Meta Frontend Developer Specialization",
         link: "https://github.com/dev4hk/Restaurant-App",
         thumbnail:
-            "src/assets/images/little-lemon.png",
+            "assets/images/little-lemon.png",
         tech: [
             "ReactJS",
             "Bootstrap"
         ],
         icons: [
-            "src/assets/logos/React.svg",
-            "src/assets/logos/Bootstrap.svg"
+            "assets/logos/React.svg",
+            "assets/logos/Bootstrap.svg"
         ]
     },
 ]
