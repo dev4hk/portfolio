@@ -1,5 +1,5 @@
 import Hero from "./components/Hero.tsx";
-import Projects from "./components/projects.tsx";
+import Projects from "./components/Projects.tsx";
 
 function App() {
     return (

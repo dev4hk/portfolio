@@ -7,18 +7,15 @@ import {
     MotionValue,
 } from "motion/react";
 import {ColourfulText} from "./colourful-text.tsx";
+import {IProject} from "../../data/data.ts";
 
 export const HeroParallax = ({
-                                 products,
+                                 projects,
                              }: {
-    products: {
-        title: string;
-        link: string;
-        thumbnail: string;
-    }[];
+    projects: IProject[];
 }) => {
-    const firstRow = products.slice(0, 4);
-    const secondRow = products.slice(4, 8).reverse();
+    const firstRow = projects.slice(0, 4);
+    const secondRow = projects.slice(4, 8).reverse();
     const ref = React.useRef(null);
     const {scrollYProgress} = useScroll({
         target: ref,
@@ -70,7 +67,7 @@ export const HeroParallax = ({
                     <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
                         {firstRow.map((product) => (
                             <ProductCard
-                                product={product}
+                                project={product}
                                 translate={translateX}
                                 key={product.title}
                             />
@@ -79,7 +76,7 @@ export const HeroParallax = ({
                     <motion.div className="flex flex-row mb-20 space-x-20">
                         {secondRow.map((product) => (
                             <ProductCard
-                                product={product}
+                                project={product}
                                 translate={translateXReverse}
                                 key={product.title}
                             />
@@ -90,7 +87,7 @@ export const HeroParallax = ({
                 <motion.div className="block sm:hidden space-y-10">
                     {Array.from({length: 4}).map((_, rowIndex) => {
                         const start = rowIndex * 2;
-                        const rowProducts = products.slice(start, start + 2);
+                        const rowProducts = projects.slice(start, start + 2);
                         return (
                             <motion.div
                                 key={rowIndex}
@@ -98,7 +95,7 @@ export const HeroParallax = ({
                             >
                                 {rowProducts.map((product) => (
                                     <ProductCard
-                                        product={product}
+                                        project={product}
                                         translate={
                                             rowIndex % 2 === 0
                                                 ? translateX
@@ -121,7 +118,7 @@ export const Header = () => {
         <div
             className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-                Crafted with <ColourfulText text={"Passion"}/>
+                Crafted with <ColourfulText text={"Passion"} startColor={"#D56AC6"} endColor={"#6A4C9C"}/>
             </h1>
             <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
                 Personal experiments where I play with modern tech and design ideas to push the boundaries of digital
@@ -132,14 +129,10 @@ export const Header = () => {
 };
 
 export const ProductCard = ({
-                                product,
+                                project,
                                 translate,
                             }: {
-    product: {
-        title: string;
-        link: string;
-        thumbnail: string;
-    };
+    project: IProject;
     translate: MotionValue<number>;
 }) => {
     return (
@@ -150,27 +143,26 @@ export const ProductCard = ({
             whileHover={{
                 y: -20,
             }}
-            key={product.title}
+            key={project.id}
             className="group/product h-96 w-[30rem] relative shrink-0"
         >
             <a
-                href={product.link}
+                href={`#${project.id}`}
                 className="block group-hover/product:shadow-2xl"
-                target="_blank"
                 rel="noopener noreferrer"
             >
                 <img
-                    src={product.thumbnail}
+                    src={project.thumbnail}
                     height={600}
                     width={600}
                     className="object-cover absolute h-full w-full inset-0 object-center"
-                    alt={product.title}
+                    alt={project.title}
                 />
             </a>
             <div
                 className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
             <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
-                {product.title}
+                {project.title}
             </h2>
         </motion.div>
     );

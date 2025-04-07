@@ -18,9 +18,7 @@ function interpolateColor(startColor: string, endColor: string, factor: number):
     return rgbToHex(result);
 }
 
-export function ColourfulText({text}: { text: string }) {
-    const startColor = "#D56AC6";
-    const endColor = "#6A4C9C";
+export function ColourfulText({text, startColor, endColor}: { text: string, startColor: string, endColor: string }) {
 
     const colors = Array.from({length: text.length}, (_, i) => {
         const factor = i / (text.length - 1);

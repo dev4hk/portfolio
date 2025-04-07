@@ -10,7 +10,7 @@ const Hero = () => {
                     "Hi, I build sleek, performant <FlipWords words={heroFlipWords}/>experiences."
                 </h2>
                 <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
-                    Software engineer with a focus on Spring Boot, Selenium, React & Angular, turning ideas into clean,
+                    Software engineer with a focus on development & testing, turning ideas into clean,
                     user-first experiences.
                 </p>
             </BackgroundLines>
