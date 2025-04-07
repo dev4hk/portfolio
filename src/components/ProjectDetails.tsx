@@ -7,7 +7,7 @@ const words = [
     },
     {
         text: "Idea",
-        className: "text-blue-500 dark:text-[#4D82EC]",
+        className: "text-blue-500 dark:text-[#A05BB1]",
     },
     {
         text: "to",
@@ -15,7 +15,7 @@ const words = [
     },
     {
         text: "Interface",
-        className: "text-blue-500 dark:text-[#4D82EC]",
+        className: "text-blue-500 dark:text-[#A05BB1]",
     },
 
 ];

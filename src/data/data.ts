@@ -43,7 +43,7 @@ export const projects: IProject[] = [
     {
         id: "iphone",
         title: "iPhone 3D Clone",
-        description: "A responsive and interactive clone of the iPhone 15 Pro product page featuring 3D model rendering, inspired by Apple's iconic design",
+        description: "Interactive iPhone 15 Pro clone page with 3D rendering, inspired by Apple's iconic design.",
         link: "https://github.com/dev4hk/react-iphone-3d",
         demo: "",
         thumbnail:
@@ -64,7 +64,7 @@ export const projects: IProject[] = [
     {
         id: "zentry",
         title: "Zentry Clone",
-        description: "A dynamic and interactive Zentry-cloned website combining scroll-triggered animations & geometric transitions to create an immersive user experience",
+        description: "Dynamic Zentry clone with scroll-triggered animations & geometric transitions for immersion.",
         link: "https://github.com/dev4hk/zentry-clone",
         demo: "",
         thumbnail:
@@ -177,7 +177,7 @@ export const projects: IProject[] = [
     {
         id: "restaurant",
         title: "Restaurant App",
-        description: "A restaurant app built using ReactJS and Bootstrap as capstone project for Meta Frontend Developer Specialization",
+        description: "Restaurant app built with ReactJS & Bootstrap as Meta Frontend Developer capstone project",
         link: "https://github.com/dev4hk/Restaurant-App",
         thumbnail:
             "assets/images/little-lemon.png",
@@ -190,4 +190,28 @@ export const projects: IProject[] = [
             "assets/logos/Bootstrap.svg"
         ]
     },
+]
+
+export interface ISkill {
+    title: string,
+    icons: string[]
+}
+
+export const skills = [
+    {
+        title: "Programming and Scripting",
+        icons: ["assets/logos/Java.svg", "assets/logos/JavaScript.svg", "assets/logos/TypeScript.svg", "assets/logos/Python.svg"],
+    },
+    {
+        title: "Backend Development",
+        icons: ["assets/logos/SpringBoot.svg", "assets/logos/MySQL.svg", "assets/logos/Docker.svg", "assets/logos/Maven.svg"],
+    },
+    {
+        title: "Frontend Development",
+        icons: ["assets/logos/HTML5.svg", "assets/logos/CSS3.svg", "assets/logos/TailwindCSS.svg", "assets/logos/React.svg", "assets/logos/Angular.svg"]
+    },
+    {
+        title: "Testing and Tools",
+        icons: ["assets/logos/Selenium.svg", "assets/logos/Cucumber.svg", "assets/logos/JUnit.svg", "assets/logos/UNIX.svg", "assets/logos/Git.svg"],
+    }
 ]
