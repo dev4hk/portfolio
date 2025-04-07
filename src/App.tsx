@@ -1,6 +1,7 @@
 import Hero from "./components/Hero.tsx";
 import Projects from "./components/Projects.tsx";
 import Skills from "./components/Skills.tsx";
+import Experience from "./components/Experience.tsx";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Hero/>
             <Skills/>
             <Projects/>
+            <Experience/>
         </main>
     )
 }

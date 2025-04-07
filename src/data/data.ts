@@ -215,3 +215,20 @@ export const skills = [
         icons: ["assets/logos/Selenium.svg", "assets/logos/Cucumber.svg", "assets/logos/JUnit.svg", "assets/logos/UNIX.svg", "assets/logos/Git.svg"],
     }
 ]
+
+export const workExperience = [
+    {
+        id: 1,
+        title: "Software Engineering Consultant",
+        desc: "Tested applications in the financial sector and built fullstack web solutions to improve frontend and backend performance.",
+        className: "md:col-span-2",
+        thumbnail: "assets/images/exp1.svg",
+    },
+    {
+        id: 2,
+        title: "3D CAD Technician",
+        desc: "Designed and created 3D models of interior components using CAD tools, optimizing designs for functionality and manufacturability.",
+        className: "md:col-span-2",
+        thumbnail: "assets/images/exp2.svg",
+    },
+]

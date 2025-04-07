@@ -118,7 +118,7 @@ export const Header = () => {
         <div
             className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-                Crafted with <ColourfulText text={"Passion"} startColor={"#D56AC6"} endColor={"#6A4C9C"}/>
+                Crafted with <ColourfulText text={"Passion"} startColor={"#4bcffa"} endColor={"#3c40c6"}/>
             </h1>
             <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
                 Personal experiments where I play with modern tech and design ideas to push the boundaries of digital

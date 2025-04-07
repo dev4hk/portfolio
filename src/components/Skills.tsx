@@ -1,7 +1,6 @@
 import {HoverEffect} from "./ui/card-hover-effect"
 import {skills} from "../data/data.ts";
 import {ColourfulText} from "./ui/colourful-text.tsx";
-import React from "react";
 
 const Skills = () => {
     return (
