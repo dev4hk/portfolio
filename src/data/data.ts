@@ -1,10 +1,11 @@
 export const heroFlipWords = [
-    "frontend",
-    "backend",
-    "testing",
-    "scripting",
-    "teamwork"
+    "interfaces",
+    "microservices",
+    "APIs",
+    "tools",
+    "frameworks"
 ];
+
 
 export interface IProject {
     id: string;
@@ -123,7 +124,7 @@ export const projects: IProject[] = [
     },
     {
         id: "loan-testing",
-        title: "Loan Application Testing",
+        title: "Loan Application Testing Framework",
         description: "Test Framework to test loan service with behavior driven testing using Cucumber, Selenium and TestNG",
         link: "https://github.com/dev4hk/loan-springboot-microservices-test",
         thumbnail:
