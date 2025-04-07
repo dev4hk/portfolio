@@ -63,7 +63,7 @@ export const HeroParallax = ({
                     opacity,
                 }}
             >
-                <motion.div className="hidden sm:block">
+                <motion.div className="hidden xl:block">
                     <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
                         {firstRow.map((product) => (
                             <ProductCard
@@ -84,7 +84,7 @@ export const HeroParallax = ({
                     </motion.div>
                 </motion.div>
 
-                <motion.div className="block sm:hidden space-y-10">
+                <motion.div className="block xl:hidden space-y-10">
                     {Array.from({length: 4}).map((_, rowIndex) => {
                         const start = rowIndex * 2;
                         const rowProducts = projects.slice(start, start + 2);
