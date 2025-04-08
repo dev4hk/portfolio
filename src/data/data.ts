@@ -46,7 +46,6 @@ export const projects: IProject[] = [
         title: "iPhone 3D Clone",
         description: "Interactive iPhone 15 Pro clone page with 3D rendering, inspired by Apple's iconic design.",
         link: "https://github.com/dev4hk/react-iphone-3d",
-        demo: "",
         thumbnail:
             "assets/images/iphone.png",
         tech: [
@@ -67,7 +66,6 @@ export const projects: IProject[] = [
         title: "Zentry Clone",
         description: "Dynamic Zentry clone with scroll-triggered animations & geometric transitions for immersion.",
         link: "https://github.com/dev4hk/zentry-clone",
-        demo: "",
         thumbnail:
             "assets/images/zentry.png",
         tech: [
@@ -161,7 +159,6 @@ export const projects: IProject[] = [
         title: "Path Finder",
         description: "Angular Application to find an optimal path from a start node to end node using A* Search Algorithm",
         link: "https://github.com/dev4hk/Waypoint-Wizard",
-        demo: "",
         thumbnail:
             "assets/images/path-finder.png",
         tech: [
