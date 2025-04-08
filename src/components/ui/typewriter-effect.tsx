@@ -21,7 +21,7 @@ export const TypewriterEffect = ({
 
     const [scope, animate] = useAnimate();
     const containerRef = useRef(null);
-    const [isInView, setIsInView] = useState(false);
+    const [isInView] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
