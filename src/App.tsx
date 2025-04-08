@@ -4,6 +4,7 @@ import Skills from "./components/Skills.tsx";
 import Experience from "./components/Experience.tsx";
 import {FloatingNav} from "./components/ui/floating-navbar.tsx";
 import {navItems} from "./data/data.ts";
+import Connect from "./components/Connect.tsx";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Skills/>
             <Projects/>
             <Experience/>
+            <Connect/>
         </main>
     )
 }
