@@ -64,6 +64,7 @@ export const projects: IProject[] = [
         title: "Zentry Clone",
         description: "Dynamic Zentry clone with scroll-triggered animations & geometric transitions for immersion.",
         link: "https://github.com/dev4hk/zentry-clone",
+        demo: "https://dev4hk.github.io/zentry-clone/",
         thumbnail:
             "assets/images/zentry.png",
         tech: [
@@ -157,6 +158,7 @@ export const projects: IProject[] = [
         title: "Path Finder",
         description: "Angular Application to find an optimal path from a start node to end node using A* Search Algorithm",
         link: "https://github.com/dev4hk/Waypoint-Wizard",
+        demo: "https://dev4hk.github.io/Waypoint-Wizard/",
         thumbnail:
             "assets/images/path-finder.png",
         tech: [
