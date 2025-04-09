@@ -42,23 +42,21 @@ export const projects: IProject[] = [
         ]
     },
     {
-        id: "iphone",
-        title: "iPhone 3D Clone",
-        description: "Interactive iPhone 15 Pro clone page with 3D rendering, inspired by Apple's iconic design.",
-        link: "https://github.com/dev4hk/react-iphone-3d",
+        id: "mvc-framework",
+        title: "Spring Web MVC Framework Clone",
+        description: "Lightweight MVC framework inspired by Spring Web MVC, using the Front Controller pattern for request handling.",
+        link: "https://github.com/dev4hk/java-my-own-MVC-framework",
         thumbnail:
-            "assets/images/iphone.png",
+            "assets/images/mvc-framework.png",
         tech: [
-            "ReactJS",
-            "JavaScript",
-            "Tailwind CSS",
-            "Vite"
+            "Java",
+            "Gradle",
+            "Tomcat"
         ],
         icons: [
-            "assets/logos/React.svg",
-            "assets/logos/JavaScript.svg",
-            "assets/logos/TailwindCSS.svg",
-            "assets/logos/Vite.svg"
+            "assets/logos/Java.svg",
+            "assets/logos/Gradle.svg",
+            "assets/logos/Tomcat.svg",
         ]
     },
     {
