@@ -25,18 +25,21 @@ const Grid = () => {
                     <AnimatedTooltip items={items}/>
                 </div>
                 <div className={"flex justify-end gap-3"}>
-                    {project.demo != undefined &&
+                    {project.demo !== undefined && (
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                            <button
+                                className="relative inline-flex h-12 overflow-hidden rounded-3xl p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                            >
+                                <span
+                                    className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
+                                <span
+                                    className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-3xl bg-slate-950 px-4 py-2 text-sm font-medium text-white backdrop-blur-3xl">
+        Demo
+      </span>
+                            </button>
+                        </a>
+                    )}
 
-                        <button
-                            className="relative inline-flex h-12 overflow-hidden rounded-3xl p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                            <span
-                                className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
-                            <span
-                                className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-3xl bg-slate-950 px-4 py-2 text-sm font-medium text-white backdrop-blur-3xl">
-    Demo
-  </span>
-                        </button>
-                    }
                     <a
                         href={project.link}
                         target="_blank"
