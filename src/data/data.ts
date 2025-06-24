@@ -20,6 +20,22 @@ export interface IProject {
 
 export const projects: IProject[] = [
     {
+        id: "order-management",
+        title: "Event-driven Order Management",
+        description: "Event-driven order management system using Spring Boot & Axon using CQRS, Materialized View, Saga patterns.",
+        link: "https://github.com/dev4hk/event-driven-order-management",
+        thumbnail:
+            "assets/images/order-management.png",
+        tech: [
+            "Spring Boot", "Axon", "PostgreSQL", "Maven"],
+        icons: [
+            "assets/logos/SpringBoot.svg",
+            "assets/logos/Axon.svg",
+            "assets/logos/PostgreSQL.svg",
+            "assets/logos/Maven.svg",
+        ]
+    },
+    {
         id: "chatbot",
         title: "AI Chatbot",
         description: "Simple AI chatbot application built using Spring Boot, Spring AI, Next.js, TailwindCSS, and Ollama.",
@@ -27,7 +43,7 @@ export const projects: IProject[] = [
         thumbnail:
             "assets/images/ai-chatbot.png",
         tech: [
-            "Spring Boot", "Spring AI", "Maven", "Next.js", "Tailwind CSS", "TypeScript, Ollama, LLaVA, Gemma3, Deepseek-r1"],
+            "Spring Boot", "Spring AI", "Maven", "Next.js", "Tailwind CSS", "TypeScript", "Ollama"],
         icons: [
             "assets/logos/SpringBoot.svg",
             "assets/logos/SpringAI.png",
@@ -36,9 +52,6 @@ export const projects: IProject[] = [
             "assets/logos/TailwindCSS.svg",
             "assets/logos/TypeScript.svg",
             "assets/logos/Ollama.svg",
-            "assets/logos/Llava.svg",
-            "assets/logos/Gemma.svg",
-            "assets/logos/Deepseek.svg"
         ]
     },
     {
@@ -170,22 +183,6 @@ export const projects: IProject[] = [
             "assets/logos/Angular.svg",
             "assets/logos/TypeScript.svg",
             "assets/logos/TailwindCSS.svg"
-        ]
-    },
-    {
-        id: "restaurant",
-        title: "Restaurant App",
-        description: "Restaurant app built with ReactJS & Bootstrap as Meta Frontend Developer capstone project",
-        link: "https://github.com/dev4hk/Restaurant-App",
-        thumbnail:
-            "assets/images/little-lemon.png",
-        tech: [
-            "ReactJS",
-            "Bootstrap"
-        ],
-        icons: [
-            "assets/logos/React.svg",
-            "assets/logos/Bootstrap.svg"
         ]
     },
 ]
