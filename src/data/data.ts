@@ -83,7 +83,7 @@ export const projects: IProject[] = [
         description: "Lightweight MVC framework inspired by Spring Web MVC, using the Front Controller pattern for request handling.",
         link: "https://github.com/dev4hk/java-my-own-MVC-framework",
         thumbnail:
-            "assets/images/mvc-framework.png",
+            "assets/images/mvc-framework-diagram.png",
         tech: [
             "Java",
             "Gradle",
