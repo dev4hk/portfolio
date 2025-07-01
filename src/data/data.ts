@@ -36,6 +36,29 @@ export const projects: IProject[] = [
         ]
     },
     {
+        id: "activity-logger",
+        title: "Activity Logger",
+        description: "Real-time user activity logging and visualization dashboard with Spring Boot, Message Queue, and React.",
+        link: "https://github.com/dev4hk/Activity-Logger",
+        thumbnail:
+            "assets/images/activity-logger.png",
+        tech: [
+            "Spring Boot", "Spring Cloud", "RabbitMQ", "Kafka", "React", "TypeScript", "TailWind CSS", "Vite", "Maven", "JUnit"
+        ],
+        icons: [
+            "assets/logos/SpringBoot.svg",
+            "assets/logos/SpringCloud.png",
+            "assets/logos/RabbitMQ.svg",
+            "assets/logos/Kafka.svg",
+            "assets/logos/React.svg",
+            "assets/logos/TypeScript.svg",
+            "assets/logos/TailwindCSS.svg",
+            "assets/logos/Vite.svg",
+            "assets/logos/Maven.svg",
+            "assets/logos/JUnit.svg"
+        ]
+    },
+    {
         id: "chatbot",
         title: "AI Chatbot",
         description: "Simple AI chatbot application built using Spring Boot, Spring AI, Next.js, TailwindCSS, and Ollama.",
@@ -153,20 +176,6 @@ export const projects: IProject[] = [
         ]
     },
     {
-        id: "file-compressor",
-        title: "File Compressor",
-        description: "Java application to compress & decompress large text files by implementing Huffman Coding Algorithm",
-        link: "https://github.com/dev4hk/file-compressor",
-        thumbnail:
-            "assets/images/file-compressor.jpg",
-        tech: [
-            "Java"
-        ],
-        icons: [
-            "assets/logos/Java.svg"
-        ]
-    },
-    {
         id: "path-finder",
         title: "Path Finder",
         description: "Angular Application to find an optimal path from a start node to end node using A* Search Algorithm",
@@ -195,19 +204,19 @@ export interface ISkill {
 export const skills = [
     {
         title: "Programming and Scripting",
-        icons: ["assets/logos/Java.svg", "assets/logos/JavaScript.svg", "assets/logos/TypeScript.svg", "assets/logos/Python.svg"],
+        icons: ["assets/logos/Java.svg", "assets/logos/TypeScript.svg", "assets/logos/Python.svg"],
     },
     {
         title: "Backend Development",
-        icons: ["assets/logos/SpringBoot.svg", "assets/logos/MySQL.svg", "assets/logos/Docker.svg", "assets/logos/Maven.svg"],
+        icons: ["assets/logos/SpringBoot.svg", "assets/logos/MySQL.svg", "assets/logos/Maven.svg", "assets/logos/Kafka.svg", "assets/logos/RabbitMQ.svg", "assets/logos/Axon.svg"],
     },
     {
         title: "Frontend Development",
-        icons: ["assets/logos/HTML5.svg", "assets/logos/CSS3.svg", "assets/logos/TailwindCSS.svg", "assets/logos/React.svg", "assets/logos/Angular.svg"]
+        icons: ["assets/logos/React.svg", "assets/logos/Angular.svg", "assets/logos/TailwindCSS.svg"]
     },
     {
         title: "Testing and Tools",
-        icons: ["assets/logos/Selenium.svg", "assets/logos/Cucumber.svg", "assets/logos/JUnit.svg", "assets/logos/UNIX.svg", "assets/logos/Git.svg"],
+        icons: ["assets/logos/Selenium.svg", "assets/logos/Cucumber.svg", "assets/logos/JUnit.svg", "assets/logos/UNIX.svg", "assets/logos/Git.svg", "assets/logos/Docker.svg", "assets/logos/Kubernetes.svg", "assets/logos/Helm.svg"],
     }
 ]
 

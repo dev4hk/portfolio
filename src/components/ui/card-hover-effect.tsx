@@ -46,7 +46,7 @@ export const HoverEffect = ({
                     <Card>
                         <CardTitle>{item.title}</CardTitle>
                         <CardDescription>
-                            <div className={"flex gap-4 justify-center"}>
+                            <div className={"flex gap-1 justify-center"}>
                                 {
                                     item.icons.map((icon, index) => (
                                         <img key={index} src={icon} alt={icon} width={30} height={30}/>
